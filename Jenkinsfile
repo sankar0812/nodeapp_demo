@@ -11,10 +11,10 @@ pipeline{
         sh 'docker build -t nodeapp .'
       }
     }
-    stage('nexus repo'){
-      steps{
+ #   stage('nexus repo'){
+  #    steps{
        
-      }
+   #   }
     }
     stage('Run container'){
       steps{
